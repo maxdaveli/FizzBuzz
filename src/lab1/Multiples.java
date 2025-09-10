@@ -7,7 +7,7 @@ public class Multiples {
 
     }
 
-    static int multiples(Integer n, Integer a, Integer b) {
+    public static int multiples(Integer n, Integer a, Integer b) {
         int count = 0;
         for (int i = 1; i < n; i++) {
             boolean divisibleBy3 = i % a == 0;
