@@ -1,6 +1,6 @@
 package lab1;
 
-class Multiples {
+public class Multiples {
 
     public static void main(String[] args) {
         System.out.println(multiples(1000, 3, 5));
